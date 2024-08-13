@@ -12,9 +12,16 @@ if height >=120:
     elif age <18:
         bill=7
         print("ticket ammount is $7")
+# logical operater
+    # A and B
+    # A or B
+    # not B        
+    elif age >=45 and age <=55 :
+        print("Everything is ok. Have a free ride")
     else :
         bill=12
-        print("the ticket value is $12")        
+        print("the ticket value is $12")    
+ #photo:               
     photo_pick =input("Are you intrested to take an pick YES/NO ")
     if photo_pick =="YES":
         bill +=3
